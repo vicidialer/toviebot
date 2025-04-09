@@ -2,7 +2,7 @@ require: slotfilling/slotFilling.sc
   module = sys.zb-common
 theme: /
 
-  state: Start
+state: Start
     q!: $regex</start>
     a: Empecemos.
     event: noMatch || toState = "./"
