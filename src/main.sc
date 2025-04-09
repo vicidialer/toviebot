@@ -5,7 +5,8 @@ theme: /
   state: Start
     q!: $regex</start>
     a: Empecemos.
-
+    event: noMatch || toState = "./"
+    
 state: Hello
     intent!: /hello
     a: Hola
